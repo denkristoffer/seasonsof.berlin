@@ -3,6 +3,7 @@ import type { InferGetStaticPropsType } from "next";
 import Head from "next/head";
 import Arrow from "../components/arrow";
 import type { Season } from "../types";
+import Credits from "../components/credits";
 
 export const config = {
   // eslint-disable-next-line @typescript-eslint/naming-convention
@@ -38,6 +39,8 @@ export default function Home({
             })}
           </ol>
         </div>
+
+        <Credits />
 
         {typeof window !== "undefined" &&
         window.location.host === "seasonsof.berlin" ? (
