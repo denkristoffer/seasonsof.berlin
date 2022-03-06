@@ -83,7 +83,7 @@ export default function Home({
           font-size: 48px;
           font-weight: bold;
           font-style: normal;
-          left: 0;
+          left: -40px;
           line-height: 1;
           position: absolute;
           text-shadow: 3px 3px #fff, 3px 2px #fff, 3px 1px #fff, 3px 0px #fff,
@@ -107,6 +107,10 @@ export default function Home({
           span {
             position: absolute;
             top: -50%;
+          }
+
+          em {
+            left: 0;
           }
         }
 
