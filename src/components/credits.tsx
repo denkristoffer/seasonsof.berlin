@@ -10,6 +10,12 @@ export default function Credits() {
           font-size: 15px;
           margin: auto auto 5px auto;
         }
+          
+        @media (prefers-color-scheme: dark) {
+          a {
+            color: #4a92f7;
+          }
+        }
       `}</style>
     </>
   );

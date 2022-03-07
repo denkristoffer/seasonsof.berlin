@@ -88,18 +88,6 @@ export default function Index({
           font-weight: bold;
           font-style: normal;
           line-height: 1;
-          text-shadow: 3px 3px #fff, 3px 2px #fff, 3px 1px #fff, 3px 0px #fff,
-            3px -1px #fff, 3px -2px #fff, 3px -3px #fff, 2px 3px #fff,
-            2px 2px #fff, 2px 1px #fff, 2px 0px #fff, 2px -1px #fff,
-            2px -2px #fff, 2px -3px #fff, 1px 3px #fff, 1px 2px #fff,
-            1px 1px #fff, 1px 0px #fff, 1px -1px #fff, 1px -2px #fff,
-            1px -3px #fff, 0px 3px #fff, 0px 2px #fff, 0px 1px #fff,
-            0px -1px #fff, 0px -2px #fff, 0px -3px #fff, -1px 3px #fff,
-            -1px 2px #fff, -1px 1px #fff, -1px 0px #fff, -1px -1px #fff,
-            -1px -2px #fff, -1px -3px #fff, -2px 3px #fff, -2px 2px #fff,
-            -2px 1px #fff, -2px 0px #fff, -2px -1px #fff, -2px -2px #fff,
-            -2px -3px #fff, -3px 3px #fff, -3px 2px #fff, -3px 1px #fff,
-            -3px 0px #fff, -3px -1px #fff, -3px -2px #fff, -3px -3px #fff;
           width: max-content;
         }
 
