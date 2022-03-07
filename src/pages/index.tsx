@@ -10,7 +10,7 @@ export const config = {
   unstable_runtimeJS: false,
 };
 
-export default function Home({
+export default function Index({
   seasons = [],
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
@@ -53,6 +53,8 @@ export default function Home({
           display: grid;
           font-family: system-ui, sans-serif;
           height: 100vh;
+          padding-left: 2em;
+          padding-right: 1em;
           place-items: center;
         }
 
@@ -83,9 +85,7 @@ export default function Home({
           font-size: 48px;
           font-weight: bold;
           font-style: normal;
-          left: -40px;
           line-height: 1;
-          position: absolute;
           text-shadow: 3px 3px #fff, 3px 2px #fff, 3px 1px #fff, 3px 0px #fff,
             3px -1px #fff, 3px -2px #fff, 3px -3px #fff, 2px 3px #fff,
             2px 2px #fff, 2px 1px #fff, 2px 0px #fff, 2px -1px #fff,
@@ -98,19 +98,27 @@ export default function Home({
             -2px 1px #fff, -2px 0px #fff, -2px -1px #fff, -2px -2px #fff,
             -2px -3px #fff, -3px 3px #fff, -3px 2px #fff, -3px 1px #fff,
             -3px 0px #fff, -3px -1px #fff, -3px -2px #fff, -3px -3px #fff;
-          top: 100%;
           width: max-content;
-          z-index: 1;
+        }
+
+        @media screen and (min-width: 500px) {
+          em {
+            transform: translate3d(0, 20px, 0);
+          }
         }
 
         @media screen and (min-width: 600px) {
           span {
             position: absolute;
-            top: -50%;
+            top: -40%;
           }
 
           em {
             left: 0;
+            position: absolute;
+            top: 100%;
+            transform: translate3d(10px, 0, 0);
+            z-index: 1;
           }
         }
 
@@ -118,6 +126,7 @@ export default function Home({
           em {
             left: calc(100% + 10px);
             top: 30%;
+            transform: translate3d(5px, 0, 0);
           }
         }
       `}</style>
