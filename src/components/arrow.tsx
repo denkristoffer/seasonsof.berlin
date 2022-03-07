@@ -21,6 +21,10 @@ export default function Arrow() {
           width: 80px;
         }
 
+        svg path {
+          fill: currentColor;
+        }
+
         @media (prefers-color-scheme: dark) {
           svg {
             stroke: #e3e1dd;
