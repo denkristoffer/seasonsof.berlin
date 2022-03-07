@@ -73,11 +73,11 @@ export default function Index({
         }
 
         li {
-          display: block;
+          display: list-item;
           font-size: 18px;
           line-height: 1.7;
           position: relative;
-          list-style-type: "- ";
+          list-style-type: "– ";
         }
 
         em {
