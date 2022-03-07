@@ -8,6 +8,8 @@ export default function App({ Component, pageProps }: AppProps) {
       <style>{`
         html,
         body {
+          background: #fdfdfd;
+          color: #080808;
           margin: 0;
         }
       `}</style>
