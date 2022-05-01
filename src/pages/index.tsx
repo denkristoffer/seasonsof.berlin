@@ -5,11 +5,6 @@ import Arrow from "../components/arrow";
 import type { Season } from "../types";
 import Credits from "../components/credits";
 
-export const config = {
-  // eslint-disable-next-line @typescript-eslint/naming-convention
-  unstable_runtimeJS: false,
-};
-
 export default function Index({
   seasons = [],
 }: InferGetStaticPropsType<typeof getStaticProps>) {
@@ -43,14 +38,15 @@ export default function Index({
         <Credits />
 
         {typeof window !== "undefined" &&
-        window.location.host === "seasonsof.berlin" ? (
-          <img alt="" src="https://seasonsofberlin.goatcounter.com/count?p=/" />
-        ) : null}
+          window.location.host === "seasonsof.berlin" && (
+            <img
+              alt=""
+              src="https://seasonsofberlin.goatcounter.com/count?p=/"
+            />
+          )}
       </div>
 
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
+      <style jsx>{`
         .root {
           display: grid;
           font-family: system-ui, sans-serif;
@@ -119,9 +115,7 @@ export default function Index({
             transform: translate3d(5px, 0, 0);
           }
         }
-      `,
-        }}
-      />
+      `}</style>
     </>
   );
 }
