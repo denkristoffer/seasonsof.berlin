@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Component {...pageProps} />
 
-      <style>{`
+      <style global jsx>{`
         html,
         body {
           background: #fdfdfd;
