@@ -87,6 +87,10 @@ export default function Index({
           width: max-content;
         }
 
+        img {
+          display: none;
+        }
+
         @media screen and (min-width: 500px) {
           em {
             transform: translate3d(0, 20px, 0);
