@@ -3,8 +3,20 @@
 export default {
   experimental: {
     outputStandalone: true,
-    runtime: "nodejs",
-    serverComponents: true,
+  },
+
+  headers: async function () {
+    return [
+      {
+        source: "/",
+        headers: [
+          {
+            key: "strict-transport-security",
+            value: "max-age=63072000; includeSubDomains; preload",
+          },
+        ],
+      },
+    ];
   },
   reactStrictMode: true,
 };
