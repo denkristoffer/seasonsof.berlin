@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 
 export default {
-  experimental: {
-    outputStandalone: true,
-  },
-
   headers: async function () {
     return [
       {
