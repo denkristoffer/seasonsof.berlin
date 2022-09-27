@@ -24,13 +24,13 @@
     "name": "Summer open airs"
   },
   {
-    "isActive": true,
     "name": "False Autumn"
   },
   {
     "name": "Second Summer"
   },
   {
+    "isActive": true,
     "name": "Autumn"
   }
 ]
