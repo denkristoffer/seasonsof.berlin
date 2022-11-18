@@ -1,0 +1,18 @@
+.svg {
+  fill: #080808;
+  stroke: #080808;
+  transform: rotate3d(0, 0, 1, 13deg) rotate3d(1, 0, 0, 180deg)
+    translate3d(11px, -14px, 0);
+  width: 80px;
+}
+
+.svg path {
+  fill: currentColor;
+}
+
+@media (prefers-color-scheme: dark) {
+  .svg {
+    stroke: #e3e1dd;
+    fill: #e3e1dd;
+  }
+}

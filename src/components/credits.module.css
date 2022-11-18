@@ -1,0 +1,10 @@
+.anchor {
+    font-size: 15px;
+    margin: auto auto 5px auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  .anchor {
+    color: #4a92f7;
+  }
+}
