@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-
 export default {
   headers: async function () {
     return [
@@ -13,6 +12,9 @@ export default {
         ],
       },
     ];
+  },
+  experimental: {
+    appDir: true,
   },
   reactStrictMode: true,
 };
