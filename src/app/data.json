@@ -1,5 +1,6 @@
 [
   {
+    "isActive": true,
     "name": "Winter"
   },
   {
@@ -30,7 +31,6 @@
     "name": "Second Summer"
   },
   {
-    "isActive": true,
     "name": "Autumn"
   }
 ]
