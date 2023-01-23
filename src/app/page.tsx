@@ -2,6 +2,7 @@ import Arrow from "../components/arrow";
 import Credits from "../components/credits";
 import styles from "./page.module.css";
 import seasons from "./data.json";
+import Analytics from "./components/analytics";
 
 export default function Index() {
   return (
@@ -30,14 +31,7 @@ export default function Index() {
 
       <Credits />
 
-      {typeof window !== "undefined" &&
-        window.location.host === "seasonsof.berlin" && (
-          <img
-            alt=""
-            className={styles.img}
-            src="https://seasonsofberlin.goatcounter.com/count?p=/"
-          />
-        )}
+      <Analytics />
     </div>
   );
 }
