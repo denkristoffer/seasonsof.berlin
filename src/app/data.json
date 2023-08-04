@@ -18,13 +18,13 @@
     "name": "Rain season"
   },
   {
-    "isActive": true,
     "name": "Actual Spring"
   },
   {
     "name": "Summer open airs"
   },
   {
+    "isActive": true,
     "name": "False Autumn"
   },
   {
