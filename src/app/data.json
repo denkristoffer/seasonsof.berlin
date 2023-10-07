@@ -27,10 +27,10 @@
     "name": "False Autumn"
   },
   {
-    "isActive": true,
     "name": "Second Summer"
   },
   {
+    "isActive": true,
     "name": "Autumn"
   }
 ]
