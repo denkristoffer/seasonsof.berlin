@@ -3,7 +3,6 @@
     "name": "Winter"
   },
   {
-    "isActive": true,
     "name": "Fool's Spring"
   },
   {
@@ -13,6 +12,7 @@
     "name": "Spring of deception"
   },
   {
+    "isActive": true,
     "name": "Third Winter"
   },
   {
