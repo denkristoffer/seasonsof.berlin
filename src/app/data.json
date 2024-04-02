@@ -9,10 +9,10 @@
     "name": "Second Winter"
   },
   {
+    "isActive": true,
     "name": "Spring of deception"
   },
   {
-    "isActive": true,
     "name": "Third Winter"
   },
   {
