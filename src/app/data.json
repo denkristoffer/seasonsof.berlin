@@ -21,7 +21,6 @@
     "name": "Actual Spring"
   },
   {
-    "isActive": true,
     "name": "Summer open airs"
   },
   {
@@ -31,6 +30,7 @@
     "name": "Second Summer"
   },
   {
+    "isActive": true,
     "name": "Autumn"
   }
 ]
